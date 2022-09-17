@@ -28,7 +28,7 @@ export default function Home({ posts }) {
         {posts.map(({ slug, frontmatter }) => (
           <div
             key={slug}
-            className='border border-gray-200 m-2 rounded-xl shadow-lg overflow-hidden flex flex-col hover:bg-sky-50'
+            className='border border-gray-200 m-2 rounded-xl shadow-lg overflow-hidden flex flex-col hover:border-indigo-200 hover:shadow-indigo-200'
           >
             <Link href={`/post/${slug}`}>
               <a>
