@@ -5,16 +5,20 @@ import Link from 'next/link';
 
 export async function getStaticProps() {
   const files = fs.readdirSync('posts');
-  const posts = files.map((fileName) => {
+  let posts = files.map((fileName) => {
     const slug = fileName.replace('.md', '');
     const readFile = fs.readFileSync(`posts/${fileName}`, 'utf-8');
     const { data: frontmatter } = matter(readFile);
-    
     return {
       slug,
       frontmatter,
     };
   });
+
+  posts.sort((a, b) => {
+    return Date.parse(b.frontmatter.date) - Date.parse(a.frontmatter.date);
+  })
+
   return {
     props: {
       posts,
