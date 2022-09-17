@@ -5,7 +5,7 @@ export default function Layout({ children }) {
     <div className='flex flex-col min-h-screen text-slate-800'>
       <header className='flex flex-row justify-between bg-indigo-100 mb-8 p-4 lg:px-10'>
         <Link href='/' className=''>
-          <a className='hover:text-blue-700'>Kurumi's Blog</a>
+          <a className='hover:text-blue-700'>Kurumi&apos;s Blog</a>
         </Link>
         <Link href='/about'>
           <a className='text-right hover:text-blue-700'>About Me</a>
