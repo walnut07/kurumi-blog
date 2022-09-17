@@ -1,13 +1,18 @@
 ---
-title: 'Next.js page options and how they work'
-metaTitle: 'Next.js page options and how they work'
+title: 'Test'
+metaTitle: 'This is test'
 metaDesc: 'How to use pages in Next.js exploring the options'
 socialImage: images/22-09-2021.jpg
-date: '2021-09-22'
+date: '2022-09-17'
 tags:
   - nextjs
 ---
 
 # The main content
 ## h2
-This is the content
+### h3
+#### h4
+
+```js
+const a = 100;
+```
