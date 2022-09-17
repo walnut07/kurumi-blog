@@ -40,7 +40,7 @@ export default function Home({ posts }) {
                   width={650}
                   height={340}
                   alt={frontmatter.title}
-                  src={`/${frontmatter.socialImage}`}
+                  src={`/${frontmatter.socialImage || 'images/ernest-karchmit-ZcDjyPNLQ8w-unsplash.jpg'}`}
                 />
                 <h1 className='pl-4'>{frontmatter.title}</h1>
                 <span className='pl-4 text-sm tracking-tighter text-stone-400'>{frontmatter.date}</span>
