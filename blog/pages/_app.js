@@ -15,8 +15,7 @@ function MyApp({ Component, pageProps }) {
         { pageProps.content && <meta property="og:type" content="article" /> }
         { pageProps.frontmatter && 
           <>
-          <meta property="og:title" content="非情報系の女子学生ががんばってプログラミングをするブログ" />
-          <meta property="og:description" content={`${pageProps.frontmatter.title}`} />
+          <meta property="og:title" content={`${pageProps.frontmatter.title}`} />
           </>
         }
       </Head>
