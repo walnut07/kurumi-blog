@@ -32,7 +32,7 @@ export default function PostPage({ frontmatter, content }) {
       <h1>{frontmatter.title}</h1>
       <span>{frontmatter.date}</span>
       {frontmatter.tags && frontmatter.tags.map(tag => {
-        return <button className='rounded bg-indigo-100 hover:bg-indigo-200 px-1 mx-2'>{tag}</button>
+        return <button key={tag} className='rounded bg-indigo-100 hover:bg-indigo-200 px-1 mx-2'>{tag}</button>
       })}
       <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
     </div>
