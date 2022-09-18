@@ -2,11 +2,9 @@
 
 👋 Hi there, I'm Kurumi Muto. I'm a Software Engineer based in Tokyo.
 
-## Technical Experience
-Comming soon
 ## Education
-Comming soon
+To be added
 ## Projects
-Comming soon
+To be added
 ## Extracurricular
-Comming soon
+To be added
