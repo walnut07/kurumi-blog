@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
         <meta property="og:description" content="非情報系の女子学生ががんばってプログラミングをするブログ" />
         <meta property="og:image" content="https://walnut07.com/images/image.png" />
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="og:type" content="main" />
+        <meta property="og:type" content="website" />
         
         { pageProps.content && <meta property="og:type" content="article" /> }
         { pageProps.frontmatter && 
