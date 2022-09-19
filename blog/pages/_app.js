@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>Kurumiのブログ</title>
         <meta property="og:site_name" content="Kurumiのブログ" />
-        <meta property="og:title" content="main" />
+        <meta property="og:title" content="Kurumiのブログ" />
         <meta property="og:description" content="非情報系の女子学生ががんばってプログラミングをするブログ" />
         <meta property="og:image" content="https://walnut07.com/images/image.png" />
         <meta property="twitter:card" content="summary_large_image" />
