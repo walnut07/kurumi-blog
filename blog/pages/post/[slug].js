@@ -33,8 +33,6 @@ export async function getStaticProps({ params: { slug } }) {
 }
 
 export default function PostPage({ slug, frontmatter, content }) {
-  const router = useRouter();
-
   const shareOnTwitter = () => {
     const selectedArea = document.getSelection();
     const selectedText = String(selectedArea);
