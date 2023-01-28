@@ -1,6 +1,7 @@
 import fs from 'fs';
 import matter from 'gray-matter';
 import md from 'markdown-it';
+import highlightjs from 'markdown-it-highlightjs';
 import HighlightPop from 'react-highlight-pop';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Popover from 'react-bootstrap/Popover';
@@ -84,7 +85,7 @@ export default function PostPage({ slug, frontmatter, content }) {
         {frontmatter.tags && frontmatter.tags.map(tag => {
           return <button key={tag} className='rounded bg-indigo-100 hover:bg-indigo-200 px-1 mx-2'>{tag}</button>
         })}
-        <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
+        <div dangerouslySetInnerHTML={{ __html: md().use(highlightjs).render(content) }} />
       </HighlightPop>
     </div>
   );
