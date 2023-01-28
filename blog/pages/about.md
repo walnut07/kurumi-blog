@@ -4,11 +4,11 @@
 Ex-Google Intern, Google Developer Student Clubs Tsuda Lead
 
 ## Experience
-- **Software Engineering Intern at Google** | October 2022 - January 2023
+- **Software Engineering Intern (STEP) at Google** | October 2022 - January 2023
     - Worked in the [Google Blogger](www.blogger.com) team.
-    - Migrated a web page that was built on top of deprecated technologies to a Google's microservice platform.
-    - Achievements (not limited to): (1) fully migrated the legacy features (2) newly added UI elements to solve the legacy UI's problems (3) launched the feature in production after getting approvals from different stakeholders.
-    - Technologies used: Protocol Buffer, Google's microservice platform, Google's frontend library, Java, TypeScript.
+    - The team's use of deprecated technologies has led to increased security vulnerabilities, hard to maintain code due to unsupported library use, and legacy UX which looks very dated by modern web standards. By upgrading to a Google's microservice platform and Google's frontend framework stack, I adhere to modern, built-in, security principles provided by the platform, increase ease of maintenance by upgrading to modern, well-documented libraries, and create an clean, accessible, and performant interface by adopting a standard interface for generating UI elements.
+    - Achievements (not limited to): (1) fully migrated the legacy features to the modern stack (2) newly added UI elements to solve the legacy UI's problems (3) launched the feature in production.
+    - Technologies used: Protocol Buffer, Java, TypeScript, Google's microservice platform, Google's frontend library
 
 ## Extracurricular
 - **Google Developer Student Clubs Lead** | August 2022 - Present
