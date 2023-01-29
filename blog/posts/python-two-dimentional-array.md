@@ -5,6 +5,7 @@ socialImage: 'images/python-logo-master-v3-TM.png'
 date: '2023-1-24'
 tags:
   - Python
+lang: 'ja'
 ---
 
 先日LeetCodeを解いているとき、**２次元配列のつくり方が違う**という理由で30分ほど無駄なデバッグをしてしまいました。（解いていた問題はこちら：[https://leetcode.com/problems/palindrome-partitioning](https://leetcode.com/problems/palindrome-partitioning)）

@@ -6,6 +6,7 @@ socialImage:
 date: '2022-09-19'
 tags:
   - About Me
+lang: 'ja'
 ---
 
 はじめまして、くるみです。
