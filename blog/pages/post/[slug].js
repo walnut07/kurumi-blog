@@ -1,12 +1,11 @@
-import fs from 'fs';
-import matter from 'gray-matter';
-import md from 'markdown-it';
-import highlightjs from 'markdown-it-highlightjs';
 import HighlightPop from 'react-highlight-pop';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Popover from 'react-bootstrap/Popover';
 import React from 'react';
-import { useRouter } from 'next/router'
+import fs from 'fs';
+import highlightjs from 'markdown-it-highlightjs';
+import matter from 'gray-matter';
+import md from 'markdown-it';
 
 export async function getStaticPaths() {
   const files = fs.readdirSync('posts');
@@ -54,7 +53,7 @@ export default function PostPage({ slug, frontmatter, content }) {
   );
 
   return (
-    <div className='prose mx-auto'>
+    <div className='prose mx-auto' lang={frontmatter.lang}>
       <HighlightPop className="px-1" popoverItems={itemClass => (
         <React.Fragment>
           <svg
