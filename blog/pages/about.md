@@ -12,9 +12,15 @@ Ex-Google Intern, Google Developer Student Clubs Tsuda Lead
 
 ## Extracurricular
 - **Google Developer Student Clubs Lead** | August 2022 - Present
-    - Founded the very first Tech community at Tsuda University Sendagaya Campus to create opportunities where women and gender minority students can learn Tech.
+    - **Founded the very first Tech community at Tsuda University Sendagaya Campus** to create opportunities where women and gender minority students can learn Tech.
     - Currently carrying 13 members. Educating and empowering them so they can host tech study sessions by themselves.
-    - Events hosted: the Very Basic Introduction to Git/Github, Data Structure and Algorithm Study Sessions.
 
 ## Projects
- - TODO: Populate this section with my personal projects!
+- [Melbee](https://github.com/melBee-newsletter/melBee) | Backend Engineer | September 2022
+    - The email builder that allows you to send html rich emails without coding. Worked in a team of five.
+    - **Mainly worked on backend** with FastAPI in Python, **partly helped debugging frontend** written with React in TypeScript.
+    - Designed database schema where six tables are related to, all of which normalized.
+
+- [Meowy](https://github.com/walnut07/Mewy) | Fullstack Engineer | September 2022
+    - A full-stack application where users can post photos after signing up. Worked by myself.
+    - Used Go and PostgreSQL for backend, TypeScript and React for frontend.
