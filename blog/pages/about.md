@@ -3,6 +3,8 @@
 👋 Hi there, I'm Kurumi (aka. walnut07). I'm a Software Engineer based in Tokyo. \
 Ex-Google Intern, Google Developer Student Clubs Tsuda Lead
 
+Here's my detailed experiences if you want to know more about me!: 
+
 ## Experience
 - **Software Engineering Intern (STEP) at Google** | October 2022 - January 2023
     - Worked in the [Google Blogger](www.blogger.com) team.
