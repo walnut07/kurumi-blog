@@ -1,7 +1,7 @@
 ---
 title: 'ReactアプリをGCPでCI/CDした記録'
 metaDesc: 
-socialImage: 'images/gcp_architecture.jpg'
+socialImage: 'images/gcp_react.png'
 date: '2023-2-4'
 tags:
   - GCP
