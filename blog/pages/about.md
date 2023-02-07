@@ -28,3 +28,18 @@
 ### [**Google Developer Student Clubs Lead**](https://gdsc.community.dev/tsuda-university-sendagaya-campus/) | August 2022 - Present
 - **Founded the very first Tech community at Tsuda University Sendagaya Campus** to create opportunities where women and gender minority students can learn Tech.
 - Currently carrying 13 members. Educating and empowering them so they can host tech study sessions by themselves.
+
+### Google STEP Development Course | May 2022 - June 2022
+- 8-week Computer Science program offered by Google. 
+- Attended a lecture every Friday and submitted homework every week. Obtained a better understanding of a variety of topics in Computer Science, such as graph theory and system architecture.
+- My work during the course: https://github.com/walnut07/GoogleSTEP.
+
+### Waffle College | April 2022 - June 2022
+- Tech program provided by [Waffle.org](https://www.linkedin.com/company/waffle-org) for woman and gender minority college students.
+- Learned the basics of Web Development.
+
+## Workshops / Events 
+- Learned **Digital Forensics** at Cyber Security U25 for TOKYO | February 18th 2023
+- Learned **Web Vulnerability** and gained **hands-on experience of Vulnerability Explorer** at Cyber Security U25 for TOKYO | January 21st 2023
+- Learned **Web Vulnerability** at Security Mini Camp | December 17th - 18th 2022
+- Mentored junior-high and high school students learning HTML/CSS at Waffle Camp | August 2022
