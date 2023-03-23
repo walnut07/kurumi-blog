@@ -12,10 +12,11 @@ In this article, we will learn about what PATH is and why we need it.
 We'll cover PATH first, and then dive into .zshrc/bash_profile to deepen our understanding.
 
 ## What is PATH?
-In short, PATH is a list of directories that your shell searches for executable files. 
+In short, **PATH is a list of directories that your shell searches for executable files.** 
+The variable PATH can look like this: /usr/local/bin:/usr/bin:/bin, which represents a list of directories.
 ![Terminal/Shell searching commands in PATH](https://drive.google.com/uc?id=1MJIi-OanQPmrZwEVXO0CMGZ4jxCqLs_9)
 
-For example, if you type `ls` in your shell, your shell will search for the executable file `ls` in the directories listed in PATH.
+For example, **if you type `ls` in your shell, your shell will search for the executable file `ls` in the directories listed in PATH.**
 In other words, an executable file for the command `ls` is somewhere in the directories listed in PATH. 
 
 I'll guide you through the process of finding the executable file for `ls` in PATH.
@@ -27,13 +28,17 @@ which ls
 > /bin/ls
 ```
 
+(1) Now we know that the executable file for `ls` is located under `/bin`.
+
+
 Next, let's check if PATH has `/bin` in it. `echo` is a command that prints the value of a variable.
 
 ```bash
 echo $PATH
 > /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 ```
-The directories listed in PATH are separated by `:`.
+(2) Now we know that `/bin` is in PATH in the third position.
+ *Note that the directories listed in PATH are separated by `:`.*
 
 As you can see, (1) **the command `ls` is implemented by a file located under `/bin`** 
 and (2) **`/bin` is in PATH**. Since shell searches for executable files in the directories listed in PATH, it can find the executable file for `ls` in `/bin`.
