@@ -17,6 +17,8 @@ By the end of this post, you must become a fan of GraphQL!
 
 Firstly, let's answer to this question: **what's GraphQL?**
 
+![GraphQL logo](https://drive.google.com/uc?id=1i4ur10k-f1nu5z9KBdn-xFZTLVi28Scg)
+
 # What is GraphQL?
 **GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data.** 
 A query language? Yes, it is a language that lets clients ask for exactly what data they need and the GraphQL servers will return only that data.  
@@ -33,11 +35,11 @@ user(id: $userId) {
 
 Essentially, **the beauty of using GraphQL is that clients send a query that requests the exact data they need**.
 In other words, clients no longer have to send multiple requests to the server to collect all the data they need.
-(Do you come up with the times when you had to make multiple requests to the REST server to get the data you need?)
+(Do you come up with the times when you had to make multiple requests to the REST server to get all the data you need?)
 
-Let's take a closer look at their advantages and disadvantages in the next section.
+Now, let's take a look at their advantages and disadvantages to obtain a better understanding of it.
 
-# Advantages and disadvantages of GraphQL?
+# Advantages and disadvantages of GraphQL
 So, why are people using GraphQL? Here's the list of the advantages and disadvantages of GraphQL.
 
 ## Advantages of GraphQL
@@ -45,10 +47,10 @@ So, why are people using GraphQL? Here's the list of the advantages and disadvan
 One of the biggest problems with REST is that **it is not possible to get only the data that you need**.
 You have to request the entire resource, and the server will return the entire resource.
 That means you have to send multiple requests to the server to fetch all the data you need.
-Otherwise, if you don't send enough requests, you will end up with an incomplete data.
+Otherwise, if you don't send enough requests, you will end up with an incomplete data set.
 That means you have to send too many requests to the server to get the data you need.
 
-In GraphQL, you can overcome these issues by sending a query to the server to get exactly the data you need.
+In GraphQL, you can overcome these issues by sending a query to the server to get the exact data you need.
 
 ### No more versioning of endpoints
 In REST, when you want to add a new field to a resource, you have to create a new endpoint.
@@ -100,7 +102,7 @@ Let's move on to the next section.
 
 ### Setting up a GraphQL server
 **It's the time for us to get our hands dirty with TypeScript and Apollo Server** to set up a GraphQL server!
-**Apollo Server**, a GraphQL server library, **provides this awesome graphical interface where you can interact with you local GraphQL server**:
+**Apollo Server**, a GraphQL server library, **provides this awesome graphical interface where you can interact with your local GraphQL server**:
 ![Apollo Server UI](https://drive.google.com/uc?id=1RVCFmrWZdT6iarP141Gv13YgyrdyI3ah)
 
 The following code is a simple example of a GraphQL server that was made based on this tutorial: [Getting Started with Apollo Server](https://www.apollographql.com/docs/apollo-server/getting-started/)
@@ -155,8 +157,8 @@ const { url } = await startStandaloneServer(server, {
 console.log(`🚀  Server ready at: ${url}`);
 ```
 
-As commented in the code, the server has a list of users and the server has a GraphQL endpoint that the client can send a request to.
-Now if you run the server, you can visit localhost:4000 to see the GraphQL playground!
+As commented in the code, the server has a list of users, and it can accept queries whose parameters can be `user` or/and `users`.
+Now if you run the server, you can visit [localhost:4000](localhost:4000) to see the GraphQL playground!
 
 Of course, there are a lot of other stuff you need to do to create a GraphQL server that works in production, 
 but this is the minimum code that you need to get an idea of GraphQL.
