@@ -18,20 +18,39 @@ In this blog post, I will give you a brief introduction to GraphQL and why peopl
 **GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data.** 
 A query language? Yes, it is a language that lets clients ask for exactly what data they need and the GraphQL servers will return only that data.  
 
-First things first, let's take a glance at an example code of a client and a server using GraphQL, 
-so you can understand how it works!
+First things first, let me show you hot to set up a server using GraphQL really quickly.
+Then I will explain what GraphQL is and why people are using it.
 
 ### Setting up a GraphQL server
-Apollo Server, a GraphQL server library, provides this awesome graphical interface where you can play around with you local GraphQL server:
-
+**Apollo Server**, a GraphQL server library, **provides this awesome graphical interface where you can play around with you local GraphQL server**:
 ![Apollo Server UI](https://drive.google.com/uc?id=1RVCFmrWZdT6iarP141Gv13YgyrdyI3ah)
 
+From the screenshot, you can see that the client sends a query to the server which looks like the following:
+```graphql
+query ExampleQuery($userId: Int!) {
+  user(id: $userId) {
+    id
+  }
+}
+```
 
-Let's get our hands dirty with TypeScript and Apollo Server to set up a GraphQL server!
+And the server returns the following response:
+```json
+{
+  "data": {
+    "user": {
+      "id": 1
+    }
+  }
+}
+```
+
+**Now it's the time to get our hands dirty with TypeScript and Apollo Server** to set up a GraphQL server!
 The code below is a simple example of a GraphQL server that was made based on this tutorial: [Getting Started with Apollo Server](https://www.apollographql.com/docs/apollo-server/getting-started/)
 
-Let's say we are building a system that manages users' data!
-Around the comment `# Define the data`, we define the data that we took in to our system.
+Let's say we are building a system that manages users' data.
+In the code below, we have those steps:
+
 
 ```js
 import { ApolloServer } from '@apollo/server';
