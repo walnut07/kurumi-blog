@@ -88,6 +88,8 @@ Also, when the server communicates with databases,
 they might need to perform multiple queries to get the data they need.
 Developers need to be mindful of query complexity and ensure that their APIs are optimized for performance.
 
+*This article explains how the N+1 problem occurs in GraphQL and solutions to it: [hygraph - How to solve the GraphQL n+1 problem](https://hygraph.com/blog/graphql-n-1-problem)*
+
 ### Caching Challenges
 In REST, you can cache the entire resource based on the endpoint.
 For example, you can use middleware like Redis to cache the entire resource by endpoints.
