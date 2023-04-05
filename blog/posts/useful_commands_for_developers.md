@@ -2,7 +2,7 @@
 title: 'Terminal Commands that Every Developer Should Know'
 metaDesc: 'This article explains some useful commands that every developer should know.'
 socialImage: 'images/laptop.png'
-date: '2023-3-23'
+date: '2023-4-6'
 tags:
   - Unix
 lang: 'en'
