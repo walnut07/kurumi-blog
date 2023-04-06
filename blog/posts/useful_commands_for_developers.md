@@ -20,6 +20,7 @@ Table of Contents:
 6. lsof -i
 7. kill
 8. ps
+9. history
 
 ## grep
 `grep` is a command that **searches for a pattern in a file** and prints the lines that contain that pattern.
@@ -243,4 +244,22 @@ Result:
 - Use `-a` option to show processes for all users. E.g.: `ps -a`
 - Use `-u` option to show processes for a specific user. E.g.: `ps -u user`
 
-# 
+## history
+`history` is a command that **lists the history of commands**.
+
+```bash
+history
+```
+
+### Example
+This command lists the history of commands in the terminal you are working with.
+```bash
+history
+```
+Result:
+This is a history of my terminal commands.
+```bash
+ 1024  lsof -i:3000
+ 1025  kill -9 70894
+ 1026  lsof -i:3000
+```
