@@ -1,10 +1,12 @@
-_---
+---
 title: 'What is cache? from computer architecture to application architecture'
 metaDesc: 'This article explains what cache is.'
-socialImage: 'images/database.jpg'
+socialImage: 'images/cpu.jpg'
 date: '2023-4-14'
 tags:
-- Computer Science
+- System Design
+- Frontend
+- Backend
 lang: 'en'
 ---
 
