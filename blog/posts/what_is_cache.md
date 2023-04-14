@@ -4,9 +4,9 @@ metaDesc: 'This article explains what cache is.'
 socialImage: 'images/cpu.jpg'
 date: '2023-4-14'
 tags:
-- System Design
-- Frontend
-- Backend
+- 'System Design'
+- 'Frontend'
+- 'Backend'
 lang: 'en'
 ---
 
