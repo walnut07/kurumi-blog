@@ -1,9 +1,7 @@
 ---
 title: 'My 2023 Story: Internships, Insights, and Future Plans for 2024'
-metaTitle:
 metaDesc: A post where I reflected on my achievements and journal my goals for 2024
-socialImage: 
-date: '2024-1-1'
+date: '2024-01-01'
 lang: 'en'
 ---
 
